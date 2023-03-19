@@ -36,6 +36,7 @@
             this.btnAbout = new Guna.UI2.WinForms.Guna2Button();
             this.Login = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.Theme = new Guna.UI2.WinForms.Guna2CustomCheckBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Login)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -44,6 +45,7 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.MidnightBlue;
+            this.panel1.Controls.Add(this.Theme);
             this.panel1.Controls.Add(this.Login);
             this.panel1.Controls.Add(this.btnAbout);
             this.panel1.Controls.Add(this.btnFeed);
@@ -162,6 +164,26 @@
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
+            // Theme
+            // 
+            this.Theme.BackColor = System.Drawing.Color.Transparent;
+            this.Theme.Checked = true;
+            this.Theme.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.Theme.CheckedState.BorderRadius = 2;
+            this.Theme.CheckedState.BorderThickness = 0;
+            this.Theme.CheckedState.FillColor = System.Drawing.Color.RoyalBlue;
+            this.Theme.Location = new System.Drawing.Point(733, 12);
+            this.Theme.Name = "Theme";
+            this.Theme.Size = new System.Drawing.Size(20, 20);
+            this.Theme.TabIndex = 5;
+            this.Theme.Text = "Noturno";
+            this.Theme.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.Theme.UncheckedState.BorderRadius = 2;
+            this.Theme.UncheckedState.BorderThickness = 0;
+            this.Theme.UncheckedState.FillColor = System.Drawing.Color.Khaki;
+            this.Theme.UseTransparentBackground = true;
+            this.Theme.Click += new System.EventHandler(this.Theme_Click);
+            // 
             // frmHome
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -196,6 +218,7 @@
         private Guna.UI2.WinForms.Guna2Button btnAbout;
         private Guna.UI2.WinForms.Guna2Button btnFeed;
         private Guna.UI2.WinForms.Guna2CirclePictureBox Login;
+        private Guna.UI2.WinForms.Guna2CustomCheckBox Theme;
     }
 }
 

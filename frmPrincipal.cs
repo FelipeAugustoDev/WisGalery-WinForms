@@ -54,5 +54,17 @@ namespace WisGalery
             UC_LoginTela login = new UC_LoginTela();
             AddUserControl(login);
         }
+
+        private void Theme_Click(object sender, EventArgs e)
+        {
+            if(Theme.Checked == true)
+            {
+                BackColor = Color.Red;
+            }
+            else
+            {
+                BackColor = Color.DarkBlue;
+            }
+        }
     }
 }

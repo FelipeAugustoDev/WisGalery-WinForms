@@ -126,7 +126,7 @@
             this.btnRegistrar.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.btnRegistrar.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.btnRegistrar.ForeColor = System.Drawing.Color.White;
-            this.btnRegistrar.Location = new System.Drawing.Point(184, 220);
+            this.btnRegistrar.Location = new System.Drawing.Point(177, 228);
             this.btnRegistrar.Name = "btnRegistrar";
             this.btnRegistrar.Size = new System.Drawing.Size(89, 23);
             this.btnRegistrar.TabIndex = 8;
@@ -141,7 +141,7 @@
             this.btnEntrar.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.btnEntrar.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.btnEntrar.ForeColor = System.Drawing.Color.White;
-            this.btnEntrar.Location = new System.Drawing.Point(25, 220);
+            this.btnEntrar.Location = new System.Drawing.Point(26, 228);
             this.btnEntrar.Name = "btnEntrar";
             this.btnEntrar.Size = new System.Drawing.Size(60, 23);
             this.btnEntrar.TabIndex = 7;
