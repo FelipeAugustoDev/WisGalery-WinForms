@@ -29,19 +29,22 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.panelContainer = new System.Windows.Forms.Panel();
             this.btnHome = new Guna.UI2.WinForms.Guna2Button();
             this.btnFeed = new Guna.UI2.WinForms.Guna2Button();
             this.btnAbout = new Guna.UI2.WinForms.Guna2Button();
+            this.Login = new Guna.UI2.WinForms.Guna2CirclePictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.Login)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.MidnightBlue;
+            this.panel1.Controls.Add(this.Login);
             this.panel1.Controls.Add(this.btnAbout);
             this.panel1.Controls.Add(this.btnFeed);
             this.panel1.Controls.Add(this.btnHome);
@@ -52,16 +55,6 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(800, 45);
             this.panel1.TabIndex = 0;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::WisGalery.Properties.Resources.meditation__1_;
-            this.pictureBox1.Location = new System.Drawing.Point(-15, 0);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(90, 50);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
             // 
             // label1
             // 
@@ -146,6 +139,29 @@
             this.btnAbout.Text = "About";
             this.btnAbout.Click += new System.EventHandler(this.btnAbout_Click);
             // 
+            // Login
+            // 
+            this.Login.Image = global::WisGalery.Properties.Resources.conta;
+            this.Login.ImageRotate = 0F;
+            this.Login.Location = new System.Drawing.Point(645, 0);
+            this.Login.Name = "Login";
+            this.Login.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.Login.Size = new System.Drawing.Size(56, 50);
+            this.Login.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.Login.TabIndex = 4;
+            this.Login.TabStop = false;
+            this.Login.Click += new System.EventHandler(this.Login_Click);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::WisGalery.Properties.Resources.meditation__1_;
+            this.pictureBox1.Location = new System.Drawing.Point(-15, 0);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(90, 50);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
+            // 
             // frmHome
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -164,6 +180,7 @@
             this.Text = "Wis";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.Login)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
@@ -178,6 +195,7 @@
         private Guna.UI2.WinForms.Guna2Button btnHome;
         private Guna.UI2.WinForms.Guna2Button btnAbout;
         private Guna.UI2.WinForms.Guna2Button btnFeed;
+        private Guna.UI2.WinForms.Guna2CirclePictureBox Login;
     }
 }
 

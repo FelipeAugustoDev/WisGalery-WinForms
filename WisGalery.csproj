@@ -52,6 +52,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FeedContent\LerPostit.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FeedContent\LerPostit.Designer.cs">
+      <DependentUpon>LerPostit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FeedContent\Postit.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FeedContent\Postit.Designer.cs">
+      <DependentUpon>Postit.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmPrincipal.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -78,6 +90,12 @@
     <Compile Include="UserControls\UC_Home.Designer.cs">
       <DependentUpon>UC_Home.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="FeedContent\LerPostit.resx">
+      <DependentUpon>LerPostit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FeedContent\Postit.resx">
+      <DependentUpon>Postit.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmPrincipal.resx">
       <DependentUpon>frmPrincipal.cs</DependentUpon>
     </EmbeddedResource>
@@ -128,6 +146,18 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\calm.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\postit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\more.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\background2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\enviarmsg.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

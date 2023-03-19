@@ -48,5 +48,10 @@ namespace WisGalery
             UC_About uc = new UC_About();
             AddUserControl(uc);
         }
+
+        private void Login_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
