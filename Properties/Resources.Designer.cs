@@ -63,9 +63,39 @@ namespace WisGalery.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap meditation {
+            get {
+                object obj = ResourceManager.GetObject("meditation", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap meditation__1_ {
             get {
                 object obj = ResourceManager.GetObject("meditation (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap relief {
+            get {
+                object obj = ResourceManager.GetObject("relief", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap relief__1_ {
+            get {
+                object obj = ResourceManager.GetObject("relief (1)", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
