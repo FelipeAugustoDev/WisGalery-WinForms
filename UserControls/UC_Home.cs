@@ -67,10 +67,10 @@ namespace WisGalery.UserControls
             myAvatarMessage.Visible = true;
             txbMy.Visible = true;
             txbMy.Text = textoMensagem.Text;
-            friendAvatar.Location = new Point(490, 205);
-            friendAvatar2.Location = new Point(490, 150);
-            txbFriend1.Location = new Point(540,225);
-            txbFriend2.Location = new Point(540, 170);
+            friendAvatar.Location = new Point(492,265);
+            friendAvatar2.Location = new Point(491, 209);
+            txbFriend1.Location = new Point(541, 284);
+            txbFriend2.Location = new Point(541, 229);
             }
         }
 
@@ -78,6 +78,7 @@ namespace WisGalery.UserControls
         {
             textoMensagem.MaxLength = 24;
         }
+
 
 
 

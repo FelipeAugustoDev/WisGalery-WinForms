@@ -40,7 +40,6 @@
             this.MyAvatar = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.picBox = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.imagensHome = new System.Windows.Forms.ImageList(this.components);
             this.rb0 = new Guna.UI2.WinForms.Guna2RadioButton();
             this.rb1 = new Guna.UI2.WinForms.Guna2RadioButton();
             this.rb2 = new Guna.UI2.WinForms.Guna2RadioButton();
@@ -51,6 +50,7 @@
             this.rb7 = new Guna.UI2.WinForms.Guna2RadioButton();
             this.myAvatarMessage = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.txbMy = new System.Windows.Forms.TextBox();
+            this.imagensHome = new System.Windows.Forms.ImageList(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.friendAvatar2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.friendAvatar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.MyAvatar)).BeginInit();
@@ -71,9 +71,9 @@
             // 
             // textoMensagem
             // 
-            this.textoMensagem.Location = new System.Drawing.Point(492, 289);
+            this.textoMensagem.Location = new System.Drawing.Point(492, 356);
             this.textoMensagem.Name = "textoMensagem";
-            this.textoMensagem.Size = new System.Drawing.Size(229, 42);
+            this.textoMensagem.Size = new System.Drawing.Size(229, 24);
             this.textoMensagem.TabIndex = 2;
             this.textoMensagem.Text = "";
             this.textoMensagem.TextChanged += new System.EventHandler(this.textoMensagem_TextChanged);
@@ -87,7 +87,7 @@
             this.btnEnviarMensagem.FillColor = System.Drawing.Color.WhiteSmoke;
             this.btnEnviarMensagem.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.btnEnviarMensagem.ForeColor = System.Drawing.Color.Black;
-            this.btnEnviarMensagem.Location = new System.Drawing.Point(727, 289);
+            this.btnEnviarMensagem.Location = new System.Drawing.Point(727, 347);
             this.btnEnviarMensagem.Name = "btnEnviarMensagem";
             this.btnEnviarMensagem.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
             this.btnEnviarMensagem.Size = new System.Drawing.Size(60, 42);
@@ -99,7 +99,7 @@
             // 
             this.txbFriend1.BackColor = System.Drawing.Color.Transparent;
             this.txbFriend1.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.txbFriend1.Location = new System.Drawing.Point(541, 264);
+            this.txbFriend1.Location = new System.Drawing.Point(541, 314);
             this.txbFriend1.Name = "txbFriend1";
             this.txbFriend1.Size = new System.Drawing.Size(22, 15);
             this.txbFriend1.TabIndex = 4;
@@ -108,7 +108,7 @@
             // txbFriend2
             // 
             this.txbFriend2.BackColor = System.Drawing.Color.Transparent;
-            this.txbFriend2.Location = new System.Drawing.Point(541, 209);
+            this.txbFriend2.Location = new System.Drawing.Point(541, 259);
             this.txbFriend2.Name = "txbFriend2";
             this.txbFriend2.Size = new System.Drawing.Size(27, 15);
             this.txbFriend2.TabIndex = 7;
@@ -118,7 +118,7 @@
             // 
             this.friendAvatar2.Image = global::WisGalery.Properties.Resources.relief__1_;
             this.friendAvatar2.ImageRotate = 0F;
-            this.friendAvatar2.Location = new System.Drawing.Point(491, 189);
+            this.friendAvatar2.Location = new System.Drawing.Point(491, 239);
             this.friendAvatar2.Name = "friendAvatar2";
             this.friendAvatar2.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
             this.friendAvatar2.Size = new System.Drawing.Size(44, 42);
@@ -130,7 +130,7 @@
             // 
             this.friendAvatar.Image = global::WisGalery.Properties.Resources.relief;
             this.friendAvatar.ImageRotate = 0F;
-            this.friendAvatar.Location = new System.Drawing.Point(492, 245);
+            this.friendAvatar.Location = new System.Drawing.Point(492, 295);
             this.friendAvatar.Name = "friendAvatar";
             this.friendAvatar.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
             this.friendAvatar.Size = new System.Drawing.Size(44, 42);
@@ -142,7 +142,7 @@
             // 
             this.MyAvatar.Image = global::WisGalery.Properties.Resources.relief__1_;
             this.MyAvatar.ImageRotate = 0F;
-            this.MyAvatar.Location = new System.Drawing.Point(442, 289);
+            this.MyAvatar.Location = new System.Drawing.Point(442, 347);
             this.MyAvatar.Name = "MyAvatar";
             this.MyAvatar.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
             this.MyAvatar.Size = new System.Drawing.Size(44, 42);
@@ -154,7 +154,7 @@
             // 
             this.guna2PictureBox1.Image = global::WisGalery.Properties.Resources.meditation;
             this.guna2PictureBox1.ImageRotate = 0F;
-            this.guna2PictureBox1.Location = new System.Drawing.Point(44, 140);
+            this.guna2PictureBox1.Location = new System.Drawing.Point(36, 202);
             this.guna2PictureBox1.Name = "guna2PictureBox1";
             this.guna2PictureBox1.Size = new System.Drawing.Size(255, 200);
             this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -165,24 +165,11 @@
             // 
             this.picBox.BackColor = System.Drawing.Color.Transparent;
             this.picBox.ImageRotate = 0F;
-            this.picBox.Location = new System.Drawing.Point(491, 16);
+            this.picBox.Location = new System.Drawing.Point(472, 16);
             this.picBox.Name = "picBox";
-            this.picBox.Size = new System.Drawing.Size(230, 115);
+            this.picBox.Size = new System.Drawing.Size(286, 161);
             this.picBox.TabIndex = 9;
             this.picBox.TabStop = false;
-            // 
-            // imagensHome
-            // 
-            this.imagensHome.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imagensHome.ImageStream")));
-            this.imagensHome.TransparentColor = System.Drawing.Color.Transparent;
-            this.imagensHome.Images.SetKeyName(0, "amavel.jpg");
-            this.imagensHome.Images.SetKeyName(1, "amavelRosa.jpg");
-            this.imagensHome.Images.SetKeyName(2, "backgoundSites.gif");
-            this.imagensHome.Images.SetKeyName(3, "backgroundSite.gif");
-            this.imagensHome.Images.SetKeyName(4, "ceuEstrelado.gif");
-            this.imagensHome.Images.SetKeyName(5, "fundoPraiaFlamingo.jpg");
-            this.imagensHome.Images.SetKeyName(6, "gifTristeNoJardim.gif");
-            this.imagensHome.Images.SetKeyName(7, "Loving.jpg");
             // 
             // rb0
             // 
@@ -193,7 +180,7 @@
             this.rb0.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.rb0.CheckedState.InnerColor = System.Drawing.Color.White;
             this.rb0.CheckedState.InnerOffset = -4;
-            this.rb0.Location = new System.Drawing.Point(529, 118);
+            this.rb0.Location = new System.Drawing.Point(532, 164);
             this.rb0.Name = "rb0";
             this.rb0.Size = new System.Drawing.Size(14, 13);
             this.rb0.TabIndex = 10;
@@ -213,7 +200,7 @@
             this.rb1.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.rb1.CheckedState.InnerColor = System.Drawing.Color.White;
             this.rb1.CheckedState.InnerOffset = -4;
-            this.rb1.Location = new System.Drawing.Point(549, 118);
+            this.rb1.Location = new System.Drawing.Point(552, 164);
             this.rb1.Name = "rb1";
             this.rb1.Size = new System.Drawing.Size(14, 13);
             this.rb1.TabIndex = 11;
@@ -233,7 +220,7 @@
             this.rb2.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.rb2.CheckedState.InnerColor = System.Drawing.Color.White;
             this.rb2.CheckedState.InnerOffset = -4;
-            this.rb2.Location = new System.Drawing.Point(569, 118);
+            this.rb2.Location = new System.Drawing.Point(572, 164);
             this.rb2.Name = "rb2";
             this.rb2.Size = new System.Drawing.Size(14, 13);
             this.rb2.TabIndex = 12;
@@ -253,7 +240,7 @@
             this.rb3.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.rb3.CheckedState.InnerColor = System.Drawing.Color.White;
             this.rb3.CheckedState.InnerOffset = -4;
-            this.rb3.Location = new System.Drawing.Point(589, 118);
+            this.rb3.Location = new System.Drawing.Point(592, 164);
             this.rb3.Name = "rb3";
             this.rb3.Size = new System.Drawing.Size(14, 13);
             this.rb3.TabIndex = 13;
@@ -273,7 +260,7 @@
             this.rb4.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.rb4.CheckedState.InnerColor = System.Drawing.Color.White;
             this.rb4.CheckedState.InnerOffset = -4;
-            this.rb4.Location = new System.Drawing.Point(609, 118);
+            this.rb4.Location = new System.Drawing.Point(612, 164);
             this.rb4.Name = "rb4";
             this.rb4.Size = new System.Drawing.Size(14, 13);
             this.rb4.TabIndex = 14;
@@ -293,7 +280,7 @@
             this.rb5.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.rb5.CheckedState.InnerColor = System.Drawing.Color.White;
             this.rb5.CheckedState.InnerOffset = -4;
-            this.rb5.Location = new System.Drawing.Point(629, 118);
+            this.rb5.Location = new System.Drawing.Point(632, 164);
             this.rb5.Name = "rb5";
             this.rb5.Size = new System.Drawing.Size(14, 13);
             this.rb5.TabIndex = 15;
@@ -313,7 +300,7 @@
             this.rb6.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.rb6.CheckedState.InnerColor = System.Drawing.Color.White;
             this.rb6.CheckedState.InnerOffset = -4;
-            this.rb6.Location = new System.Drawing.Point(649, 118);
+            this.rb6.Location = new System.Drawing.Point(652, 164);
             this.rb6.Name = "rb6";
             this.rb6.Size = new System.Drawing.Size(14, 13);
             this.rb6.TabIndex = 16;
@@ -333,7 +320,7 @@
             this.rb7.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.rb7.CheckedState.InnerColor = System.Drawing.Color.White;
             this.rb7.CheckedState.InnerOffset = -4;
-            this.rb7.Location = new System.Drawing.Point(669, 118);
+            this.rb7.Location = new System.Drawing.Point(672, 164);
             this.rb7.Name = "rb7";
             this.rb7.Size = new System.Drawing.Size(14, 13);
             this.rb7.TabIndex = 17;
@@ -348,7 +335,7 @@
             // 
             this.myAvatarMessage.Image = global::WisGalery.Properties.Resources.relief__1_;
             this.myAvatarMessage.ImageRotate = 0F;
-            this.myAvatarMessage.Location = new System.Drawing.Point(677, 241);
+            this.myAvatarMessage.Location = new System.Drawing.Point(677, 308);
             this.myAvatarMessage.Name = "myAvatarMessage";
             this.myAvatarMessage.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
             this.myAvatarMessage.Size = new System.Drawing.Size(44, 42);
@@ -361,11 +348,24 @@
             // 
             this.txbMy.BackColor = System.Drawing.Color.CornflowerBlue;
             this.txbMy.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txbMy.Location = new System.Drawing.Point(569, 241);
+            this.txbMy.Location = new System.Drawing.Point(569, 308);
             this.txbMy.Multiline = true;
             this.txbMy.Name = "txbMy";
             this.txbMy.Size = new System.Drawing.Size(114, 39);
             this.txbMy.TabIndex = 20;
+            // 
+            // imagensHome
+            // 
+            this.imagensHome.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imagensHome.ImageStream")));
+            this.imagensHome.TransparentColor = System.Drawing.Color.Transparent;
+            this.imagensHome.Images.SetKeyName(0, "amavel.jpg");
+            this.imagensHome.Images.SetKeyName(1, "backgroundHappy.gif");
+            this.imagensHome.Images.SetKeyName(2, "backgroundSite.gif");
+            this.imagensHome.Images.SetKeyName(3, "gifTristeNoJardim.gif");
+            this.imagensHome.Images.SetKeyName(4, "Loving.jpg");
+            this.imagensHome.Images.SetKeyName(5, "nuvensCeu.gif");
+            this.imagensHome.Images.SetKeyName(6, "ruaJapan1.gif");
+            this.imagensHome.Images.SetKeyName(7, "ruaJapan2.gif");
             // 
             // UC_Home
             // 
@@ -395,7 +395,7 @@
             this.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "UC_Home";
-            this.Size = new System.Drawing.Size(800, 343);
+            this.Size = new System.Drawing.Size(800, 405);
             ((System.ComponentModel.ISupportInitialize)(this.friendAvatar2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.friendAvatar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.MyAvatar)).EndInit();
@@ -419,7 +419,6 @@
         private Guna.UI2.WinForms.Guna2CirclePictureBox friendAvatar2;
         private Guna.UI2.WinForms.Guna2HtmlLabel txbFriend2;
         private Guna.UI2.WinForms.Guna2PictureBox picBox;
-        private System.Windows.Forms.ImageList imagensHome;
         private Guna.UI2.WinForms.Guna2RadioButton rb0;
         private Guna.UI2.WinForms.Guna2RadioButton rb1;
         private Guna.UI2.WinForms.Guna2RadioButton rb2;
@@ -430,5 +429,6 @@
         private Guna.UI2.WinForms.Guna2RadioButton rb7;
         private Guna.UI2.WinForms.Guna2CirclePictureBox myAvatarMessage;
         private System.Windows.Forms.TextBox txbMy;
+        private System.Windows.Forms.ImageList imagensHome;
     }
 }
