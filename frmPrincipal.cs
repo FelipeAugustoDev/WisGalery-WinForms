@@ -51,7 +51,8 @@ namespace WisGalery
 
         private void Login_Click(object sender, EventArgs e)
         {
-
+            UC_LoginTela login = new UC_LoginTela();
+            AddUserControl(login);
         }
     }
 }

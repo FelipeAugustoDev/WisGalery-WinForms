@@ -90,6 +90,24 @@
     <Compile Include="UserControls\UC_Home.Designer.cs">
       <DependentUpon>UC_Home.cs</DependentUpon>
     </Compile>
+    <Compile Include="UserControls\UC_Login.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\UC_Login.Designer.cs">
+      <DependentUpon>UC_Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\UC_LoginTela.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\UC_LoginTela.Designer.cs">
+      <DependentUpon>UC_LoginTela.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\UC_Register.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\UC_Register.Designer.cs">
+      <DependentUpon>UC_Register.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="FeedContent\LerPostit.resx">
       <DependentUpon>LerPostit.cs</DependentUpon>
     </EmbeddedResource>
@@ -117,6 +135,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="UserControls\UC_Home.resx">
       <DependentUpon>UC_Home.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\UC_Login.resx">
+      <DependentUpon>UC_Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\UC_LoginTela.resx">
+      <DependentUpon>UC_LoginTela.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\UC_Register.resx">
+      <DependentUpon>UC_Register.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
@@ -158,6 +185,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\enviarmsg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\conta.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

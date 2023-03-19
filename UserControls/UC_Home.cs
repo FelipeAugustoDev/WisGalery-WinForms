@@ -66,6 +66,7 @@ namespace WisGalery.UserControls
             { 
             myAvatarMessage.Visible = true;
             txbMy.Visible = true;
+            txbMy.ForeColor = Color.Black;
             txbMy.Text = textoMensagem.Text;
             friendAvatar.Location = new Point(492,265);
             friendAvatar2.Location = new Point(491, 209);
@@ -77,6 +78,7 @@ namespace WisGalery.UserControls
         private void textoMensagem_TextChanged(object sender, EventArgs e)
         {
             textoMensagem.MaxLength = 24;
+
         }
 
 
